@@ -36,17 +36,15 @@
 
 /* Esercizio 5 */
 .ex-5-square {
-  transition: all 1s linear;
+  transition: scale 2s linear;
 }
 
 .ex-5-square:hover {
-  height: 100px;
-  width: 100px;
+  transform: scale(2);
 }
 
 .ex-5-square:active {
-  height: 30px;
-  width: 30px;
+  transform: scale(0.2);
 }
 
 /* Esercizio 6 */
@@ -101,13 +99,6 @@
 }
 
 /* Esercizio 11 */
-.ex-11-icon {
-  animation-name: spin;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
 .ex-11-icon:hover {
   animation-name: incomplete-spin;
   animation-duration: 2s;
@@ -124,14 +115,14 @@
 }
 
 /* Esercizio 12 */
-.ex-12-top-white {
+.ex-12-button:hover > .ex-12-top-white {
   animation-name: white-space-top-12;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-.ex-12-bottom-white {
+.ex-12-button:hover > .ex-12-bottom-white {
   animation-name: white-space-bottom-12;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -155,14 +146,14 @@
 }
 
 /* Esercizio 13 */
-.ex-13-top-white {
+.ex-13-button:hover > .ex-13-top-white {
   animation-name: white-space-top-13;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-.ex-13-bottom-white {
+.ex-13-button:hover > .ex-13-bottom-white {
   animation-name: white-space-bottom-13;
   animation-duration: 2s;
   animation-timing-function: linear;
